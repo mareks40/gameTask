@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+#square {
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
+}
+
+.square-place {
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+button {
+    margin-top: 20px;
+    gap: 60px;
+}
