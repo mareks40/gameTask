@@ -7,6 +7,15 @@ body {
     background-color: rgb(67, 61, 61);
 }
 
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: green;*/
+}
+
+/* Header start*/
+
 header {
     display: flex;
     /* color: whitesmoke;*/
@@ -21,15 +30,6 @@ h1,
 p {
     margin: 0;
     color: white;
-
-}
-
-.container {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: green;*/
-
 }
 
 .counter {
@@ -38,16 +38,54 @@ p {
     font-size: 16px;
 }
 
+/* Header end*/
+
+/* Game place start*/
+
 #square {
-    height: 40px;
-    width: 40px;
-    border: 1px solid red;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(243, 238, 238);
+}
+
+.game-place {
+    border: 1px solid rgb(173, 173, 171);
+    padding-top: 20px;
 }
 
 .square-place {
-    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 6px;
+    gap: 4vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
+
+.btn-start,
+.btn-reset {
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.btn-start {
+    background-color: rgb(138, 227, 3);
+    color: rgb(68, 67, 67);
+}
+
+.btn-reset {
+    background-color: rgba(246, 5, 5, 0.564);
+    color: whitesmoke;
+}
+
+/* Game place end*/
